@@ -1,0 +1,7 @@
+gmc_first_homepage:
+    path:     /secondAction
+    defaults: { _controller: gmcFirstBundle:Default:index }
+
+hello_the_world:
+    path:     /hello-world
+    defaults: { _controller: gmcFirstBundle:First:second }
